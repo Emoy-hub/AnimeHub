@@ -1,0 +1,166 @@
+
+
+.gallery {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #004251;
+  margin-top: 30px;
+}
+
+.gallery:hover{
+  border-style: solid;
+  border-width:2px;
+  border-color: #159C91;
+  border-radius: 4px;
+  transition: 0.1s;
+}
+
+.gallery:active{
+  opacity: 0.3;
+  transition: 0.2;
+}
+
+.body {
+padding: 5rem 5rem;
+  }
+
+
+img {
+  width: 317px;
+  cursor: pointer;
+  margin-bottom:0;
+  padding-bottom: 0;
+  display: inline-block;
+  height: 198px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+.series {
+  margin-right: 5px;
+}
+
+.category {
+  margin-left: 59px;
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 3px;
+  color: #159C91;
+}
+
+
+
+.header p {
+  margin-top: 0;
+  display: inline-block;
+  background-color: #004251;
+  width: 100%;
+  height: 70px;
+  margin-right: 0;
+  padding-top: 2rem;
+  padding-bottom: 1px;
+  padding-left: 5rem;
+  vertical-align: middle;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #002C39;
+}
+
+.series {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.movies {
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-top: 50px;
+  padding-bottom: 60px ;
+}
+
+.logo {
+  font-family:'jomhuria';
+  font-weight: 800;
+  color: #159C91;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 55px;
+
+}
+
+.title p {
+  font-family: 'poppins';
+  font-weight: 400;
+  font-size: 15px;
+  color: #159C91;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+
+.cate-series, 
+.cate-mov  {
+  padding-bottom: 0;
+}
+
+
+
+.container {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+p {
+  letter-spacing: -5;
+}
+
+
+.title p , a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: inline-flex;
+  background-color: #004251;
+  padding-right: 40px;
+}
+.navbar a {
+  font-size: 19px;
+  font-family: 'poppins';
+  margin-right: 30px;
+  background-color: #004251;
+  padding: 0;
+  padding-top: 3rem;
+  font-weight: 700;
+  color: #159C91;
+  border: none;
+}
+
+
+.search{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px 0;
+  padding-right: 200px;
+  padding-left: 7px;
+  font-size: 20px;
+  color: white;
+}
